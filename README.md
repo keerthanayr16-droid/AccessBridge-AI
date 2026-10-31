@@ -7,13 +7,28 @@ AccessBridge AI assists community volunteers, social workers, and facilitators t
 
 ---
 
-## 🚀 Live Working Access
+## 🌐 Live Working Links
 
-The system is compiled, integrated, and actively running:
+- **Live Public URL (Worldwide Access):** [https://fruity-monkeys-reply.loca.lt](https://fruity-monkeys-reply.loca.lt)  
+  *(When prompted on first visit, enter tunnel password: `49.205.132.63` and click "Click to Continue")*
+- **Local Development URL:** [http://localhost:5173](http://localhost:5173)
+- **Backend API Server:** [http://localhost:3000](http://localhost:3000)
+- **API Health Check:** [http://localhost:3000/api/health](http://localhost:3000/api/health)
 
-- **Frontend Interface (React + Vite + Tailwind):** [http://localhost:5173](http://localhost:5173)
-- **Backend API Server (Express + TypeScript):** [http://localhost:3000](http://localhost:3000)
-- **API Health Endpoint:** [http://localhost:3000/api/health](http://localhost:3000/api/health) (or via proxy: [http://localhost:5173/api/health](http://localhost:5173/api/health))
+---
+
+## 🐙 GitHub Repository Setup
+
+The local Git repository has been initialized with the `main` branch and clean commits containing all source code (frontend, backend, benchmarks, styles, and configs).
+
+To push to your GitHub repository:
+```powershell
+# 1. Add your remote GitHub repository
+git remote add origin <YOUR_GITHUB_REPO_URL>
+
+# 2. Push all code to main
+git push -u origin main
+```
 
 ---
 
@@ -92,6 +107,7 @@ neww/
 │   │   │   └── evalService.ts
 │   │   └── server.ts
 │   └── package.json
-└── research/
-    └── benchmark.jsonl
+├── research/
+│   └── benchmark.jsonl
+└── README.md
 ```
