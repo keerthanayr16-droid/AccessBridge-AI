@@ -1,0 +1,20 @@
+{
+  "name": "accessbridge-ai",
+  "version": "1.0.0",
+  "description": "AccessBridge AI: An Evidence-Grounded, Multilingual AI Navigator for Community Access to Public Services",
+  "scripts": {
+    "server": "cd server && npx tsx watch src/server.ts",
+    "client": "cd client && npx vite --host 0.0.0.0 --port 5173",
+    "build:client": "cd client && npm run build",
+    "build:server": "cd server && npm run build",
+    "build": "npm run build:client && npm run build:server"
+  },
+  "keywords": [
+    "rag",
+    "multilingual",
+    "public-services",
+    "community-facilitator"
+  ],
+  "author": "keerthana",
+  "license": "Apache-2.0"
+}
